@@ -16,6 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    BOOL isLoggedIn = [[NSUserDefaults standardUserDefaults] boolForKey:@"isLoggedIn"];
+    NSString *storyboardId = isLoggedIn ? @"SecondVC" : @"FirstVC";
+    UIStoryboard *storybord = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [storybord instantiateViewControllerWithIdentifier:storyboardId];
+    self.window.rootViewController = vc;
     // Override point for customization after application launch.
     return YES;
 }

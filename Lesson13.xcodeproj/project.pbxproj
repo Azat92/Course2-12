@@ -13,6 +13,8 @@
 		AA290D111C089AD0002608DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA290D0F1C089AD0002608DC /* Main.storyboard */; };
 		AA290D131C089AD0002608DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA290D121C089AD0002608DC /* Assets.xcassets */; };
 		AA290D161C089AD0002608DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA290D141C089AD0002608DC /* LaunchScreen.storyboard */; };
+		AA290D1F1C089DA3002608DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA290D1E1C089DA3002608DC /* SecondViewController.m */; };
+		AA290D221C08A26A002608DC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AA290D211C08A26A002608DC /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AA290D121C089AD0002608DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA290D151C089AD0002608DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA290D171C089AD0002608DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA290D1D1C089DA3002608DC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AA290D1E1C089DA3002608DC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AA290D201C08A26A002608DC /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		AA290D211C08A26A002608DC /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				AA290D141C089AD0002608DC /* LaunchScreen.storyboard */,
 				AA290D171C089AD0002608DC /* Info.plist */,
 				AA290D061C089AD0002608DC /* Supporting Files */,
+				AA290D1D1C089DA3002608DC /* SecondViewController.h */,
+				AA290D1E1C089DA3002608DC /* SecondViewController.m */,
+				AA290D201C08A26A002608DC /* MyClass.h */,
+				AA290D211C08A26A002608DC /* MyClass.m */,
 			);
 			path = Lesson13;
 			sourceTree = "<group>";
@@ -149,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA290D1F1C089DA3002608DC /* SecondViewController.m in Sources */,
 				AA290D0E1C089AD0002608DC /* ViewController.m in Sources */,
+				AA290D221C08A26A002608DC /* MyClass.m in Sources */,
 				AA290D0B1C089AD0002608DC /* AppDelegate.m in Sources */,
 				AA290D081C089AD0002608DC /* main.m in Sources */,
 			);
